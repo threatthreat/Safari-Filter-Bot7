@@ -1780,7 +1780,7 @@ async def auto_filter(client, msg, spoll=False):
                 return
             if len(message.text) < 100:
                 search = message.text
-                m=await message.reply_sticker(sticker="CAACAgIAAxkBAAEVugJljpdfkszexOUZu8hPjuPKty8ZmAACdxgAAqPjKEmMVSFmXGLogR4E",
+                m=await message.reply_sticker(sticker="CAACAgUAAxkBAAKsH2gPku-SXoMZwT-dTAsCPreQ-O45AAI6DwAC0Bh5Vs_uiKOtnAfnNgQ",
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🅿︎🅻︎🅴︎🅰︎🆂︎🅴︎  🆆︎🅰︎🅸︎🆃︎", url=CHNL_LNK)]]))
                 search = search.lower()
                 find = search.split(" ")
