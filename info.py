@@ -70,15 +70,15 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 VERIFY_URL = environ.get('VERIFY_URL', 'modijiurl.com')
-VERIFY_API = (environ.get('VERIFY_API', '221559faa5a0d43dc2da97cc3f6848feff6549c2)
+VERIFY_API = (environ.get('VERIFY_API', '221559faa5a0d43dc2da97cc3f6848feff6549c2')
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 VERIFY_URL2 = environ.get('VERIFY_URL2', 'modijiurl.com')
-VERIFY_API2 = (environ.get('VERIFY_API2', '221559faa5a0d43dc2da97cc3f6848feff6549c2)
+VERIFY_API2 = (environ.get('VERIFY_API2', '221559faa5a0d43dc2da97cc3f6848feff6549c2')
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "14400"))
 VERIFY_URL3 = environ.get('VERIFY_URL3', 'modijiurl.com')
-VERIFY_API3 = (environ.get('VERIFY_API3', '221559faa5a0d43dc2da97cc3f6848feff6549c2)
+VERIFY_API3 = (environ.get('VERIFY_API3', '221559faa5a0d43dc2da97cc3f6848feff6549c2')
  
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Bombardiro_Crocodiloa')
 TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/Bombardiro_Crocodiloa')
