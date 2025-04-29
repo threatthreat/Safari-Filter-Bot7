@@ -343,7 +343,6 @@ Money heist S0E01
 🔸 <a href="https://t.me/MovieByte_7">Hindi</a>
 🔸 <a href="https://t.me/MovieByte_7">Malayalam</a>
 🔸 <a href="https://t.me/MovieByte_7">Telugu</a>
-"""
 
 ==========================
 ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
