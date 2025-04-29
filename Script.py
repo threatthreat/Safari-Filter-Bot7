@@ -1,6 +1,3 @@
-from telegram import Update
-from telegram.ext import CallbackContext
-
 class script(object):
     START_TXT = """<b><i>ʜᴇʏ 😎</i></b> {},
 <b><blockquote>Iᴍ Tʜᴇ Mᴏsᴛ Aᴅᴠᴀɴᴄᴇ Aɪ Pᴏᴡᴇʀᴅ Bᴏᴛ.🥰
@@ -339,28 +336,25 @@ Money heist S0E01
 ○ ɴᴏ ɴᴇᴇᴅ ᴠᴇʀɪғʏ
 ○ ᴅɪʀᴇᴄᴛ ғɪʟᴇs   
 ○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ 
-○ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs        
+○ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs 
+<b>Select Language:</b>
+
+🔸 <a href="https://t.me/MovieByte_7">Tamil</a>
+🔸 <a href="https://t.me/MovieByte_7">Hindi</a>
+🔸 <a href="https://t.me/MovieByte_7">Malayalam</a>
+🔸 <a href="https://t.me/MovieByte_7">Telugu</a>
+"""
 
 ==========================
 ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ</b>"""
-def send_languages(update: Update, context: CallbackContext):
-    TEXT = """
-<b>Select Language:</b>
-
-🔸 <a href="https://telegra.ph/Tamil-Example-Link">Tamil</a>
-🔸 <a href="https://telegra.ph/Hindi-Example-Link">Hindi</a>
-🔸 <a href="https://telegra.ph/Malayalam-Example-Link">Malayalam</a>
-🔸 <a href="https://telegra.ph/Telugu-Example-Link">Telugu</a>
-"""
-    update.message.reply_text(TEXT, parse_mode="HTML", disable_web_page_preview=True)
 
     
     UPI_TXT = """<b>   
 ⚜️ ᴘᴀʏ ᴀᴍᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ !
 
-💵 ᴜᴘɪ ɪᴅ - <code>grezy8007@okhdfcbank</code>
+💵 ᴜᴘɪ ɪᴅ - <code>JEETUBIND@paytm</code>
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ
 <i>पेमेंट होने के बाद हमे स्क्रीन शॉट भेजें</i>.</b>"""
