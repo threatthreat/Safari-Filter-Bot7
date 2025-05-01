@@ -40,7 +40,7 @@ REFFER_POINT = int(environ.get('USER_POINT', "50")) # Set Referel point Count
 premium = environ.get('PREMIUM_LOGS', '')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 # lock file, set file limit 
-FILE_LIMITE = int(environ.get('FILE_LIMITE', 15))
+FILE_LIMITE = int(environ.get('FILE_LIMITE', 20))
 SEND_ALL_LIMITE = int(environ.get('SEND_ALL_LIMITE', 3))
 LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'True')), False)
 
@@ -98,7 +98,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ))
 GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', )) # Group verify stats 
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1002553599064)) # movies request channel, else log channel
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Jhwjwp')
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 PM_FILTER = is_enabled((environ.get('PM_FILTER', "True")), False)
