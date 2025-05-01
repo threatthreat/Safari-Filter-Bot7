@@ -69,16 +69,16 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
 #verify site api and url
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'papajiurl.com')
-VERIFY_API = (environ.get('VERIFY_API', '41ff6d51799b604c63f6cfe75eb5b7a58794a850'))
+VERIFY_URL = environ.get('VERIFY_URL', '')
+VERIFY_API = (environ.get('VERIFY_API', ''))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'modijiurl.com')
-VERIFY_API2 = (environ.get('VERIFY_API2', '04d39f6f93164655a957b4ffd397defff9183148'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', '')
+VERIFY_API2 = (environ.get('VERIFY_API2', ''))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "14400"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'papajiurl.com')
-VERIFY_API3 = (environ.get('VERIFY_API3', '41ff6d51799b604c63f6cfe75eb5b7a58794a850'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', '')
+VERIFY_API3 = (environ.get('VERIFY_API3', ''))
  
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Bombardiro_Crocodiloa')
 TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/Bombardiro_Crocodiloa')
@@ -98,7 +98,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ))
 GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', )) # Group verify stats 
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1002553599064)) # movies request channel, else log channel
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Jhwjwp')
-IMDB = is_enabled((environ.get('IMDB', "True")), False)
+IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 PM_FILTER = is_enabled((environ.get('PM_FILTER', "True")), False)
