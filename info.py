@@ -60,8 +60,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Safaribotts')
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'sharedisklinks.com'))
-STREAM_API = (environ.get('STREAM_API', 'b63b4b99eedf083784f2e7fac0dd2410f7222351'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'vipurl.in'))
+STREAM_API = (environ.get('STREAM_API', ' 350e1c2b56b3162b0259542340b957f200deebe3'))
 STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/Bombardiro_Crocodiloa'))
 STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
 
