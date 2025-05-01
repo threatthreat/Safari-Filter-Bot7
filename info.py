@@ -32,12 +32,12 @@ WELCOME_VID = environ.get("WELCOME_VID", "https://envs.sh/4mu.mp4")
 #premium imag
 REFFER_PIC = environ.get('REFFER_PIC', 'https://graph.org/file/f75feb19aece0d4badefd.jpg')
 PREMIUM_PIC = environ.get('SUBSCRIPTION', 'https://i.imghippo.com/files/wPdPK1726559453.jpg')
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/8bc2cc53e47180bc78c10.jpg') # Scanner Code image 
+QR_CODE = environ.get('QR_CODE', 'https://i.ibb.co/27xBy1r0/file-908.jpg') # Scanner Code image 
 #refer time, or feffer count
 REFERAL_TIME = int(environ.get('REFERAL_USER_TIME', "2592000")) # set in seconds | already seted 1 month premium
 REFFER_POINT = int(environ.get('USER_POINT', "50")) # Set Referel point Count 
 #premium Users Satuts
-premium = environ.get('PREMIUM_LOGS', '')
+premium = environ.get('PREMIUM_LOGS', '-1002583130466')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 # lock file, set file limit 
 FILE_LIMITE = int(environ.get('FILE_LIMITE', 20))
@@ -50,7 +50,7 @@ OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "TylerDurden_T4") # widout 👉
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002355897941').split()]
 # post channel auto post new movie
 POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002629203568').split(','))))
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002275381683'))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', ''))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002275381683'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
@@ -69,16 +69,16 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
 #verify site api and url
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', '')
-VERIFY_API = (environ.get('VERIFY_API', ''))
+VERIFY_URL = environ.get('VERIFY_URL', 'shortner.in')
+VERIFY_API = (environ.get('VERIFY_API', '659546a38bd0c5480b3b76bf63f2d982c21c93cf'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', '')
-VERIFY_API2 = (environ.get('VERIFY_API2', ''))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'shortner.in')
+VERIFY_API2 = (environ.get('VERIFY_API2', '659546a38bd0c5480b3b76bf63f2d982c21c93cf'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "14400"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', '')
-VERIFY_API3 = (environ.get('VERIFY_API3', ''))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'shortner.in')
+VERIFY_API3 = (environ.get('VERIFY_API3', '659546a38bd0c5480b3b76bf63f2d982c21c93cf'))
  
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Bombardiro_Crocodiloa')
 TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/Bombardiro_Crocodiloa')
@@ -94,8 +94,8 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MoviesandSeries36')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movie_updates_8')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ))
-GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', )) # Group verify stats 
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002647011471))
+GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', -1002539135173)) # Group verify stats 
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1002553599064)) # movies request channel, else log channel
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/sparker_acx')
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
