@@ -41,7 +41,7 @@ premium = environ.get('PREMIUM_LOGS', '-1002583130466')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 # lock file, set file limit 
 FILE_LIMITE = int(environ.get('FILE_LIMITE', 20))
-SEND_ALL_LIMITE = int(environ.get('SEND_ALL_LIMITE', 3))
+SEND_ALL_LIMITE = int(environ.get('SEND_ALL_LIMITE', 5))
 LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'True')), False)
 
 # Admins, Channels & Users
