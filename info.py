@@ -72,11 +72,11 @@ VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c
 VERIFY_URL = environ.get('VERIFY_URL', 'shortner.in')
 VERIFY_API = (environ.get('VERIFY_API', '659546a38bd0c5480b3b76bf63f2d982c21c93cf'))
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "21600"))
 VERIFY_URL2 = environ.get('VERIFY_URL2', 'shortner.in')
 VERIFY_API2 = (environ.get('VERIFY_API2', '659546a38bd0c5480b3b76bf63f2d982c21c93cf'))
  
-THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "14400"))
+THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "21600"))
 VERIFY_URL3 = environ.get('VERIFY_URL3', 'shortner.in')
 VERIFY_API3 = (environ.get('VERIFY_API3', '659546a38bd0c5480b3b76bf63f2d982c21c93cf'))
  
