@@ -320,10 +320,10 @@ Money heist S0E01
 💵 <i> ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs </ɪ>
 
 🥉 Bronze   – ₹40 = 1ᴍᴏɴᴛʜ
-🥈 Silver   – ₹75 = 2ᴍᴏɴᴛʜ (save ₹5)
-🥇 Gold     _ ₹110 = 3ᴍᴏɴᴛʜ (save ₹10)
-💎 Diamond  – ₹200 = 6ᴍᴏɴᴛʜ (save ₹40)
-🏆 Platinum – ₹600 = ʟɪꜰᴇᴛɪᴍᴇ💥 (You access all movies lifelong!)
+🥈 Silver   – ₹75 = 2ᴍᴏɴᴛʜ 
+🥇 Gold     _ ₹110 = 3ᴍᴏɴᴛʜ 
+💎 Diamond  – ₹200 = 6ᴍᴏɴᴛʜ 
+🏆 Platinum – ₹600 = ʟɪꜰᴇᴛɪᴍᴇ
 
 ==========================
 🎁 <u>ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs</u> :
