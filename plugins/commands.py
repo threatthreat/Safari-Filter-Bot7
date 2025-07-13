@@ -273,7 +273,7 @@ async def start(client, message):
                     verify = await get_shortlink(f"https://telegram.me/{temp.U_NAME}?start=verify_{user_id}_{verify_id}_{file_id}", grp_id, is_second_shortener, is_third_shortener)
                 if not await db.check_trial_status(user_id):
                     buttons = [[
-                        InlineKeyboardButton("✅️ ᴠᴇʀɪғʏ ✅️", url=verify)
+                        InlineKeyboardButton("✨👉🏻ᴠᴇʀɪꜰʏ & ɢᴇᴛ ᴍᴏᴠɪᴇ 👈🏻✨", url=verify)
                     ],[
                         InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url=tutorial)
                     ],[
@@ -281,7 +281,7 @@ async def start(client, message):
                     ]]
                 else:
                     buttons = [[
-                        InlineKeyboardButton("✅️ ᴠᴇʀɪғʏ ✅️", url=verify)
+                        InlineKeyboardButton("✨👉🏻ᴠᴇʀɪꜰʏ & ɢᴇᴛ ᴍᴏᴠɪᴇ 👈🏻✨", url=verify)
                     ],[
                         InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url=tutorial)
                     ],[
