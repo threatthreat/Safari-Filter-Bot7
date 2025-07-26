@@ -69,16 +69,16 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
 #verify site api and url
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'shortxlinks.com')
-VERIFY_API = (environ.get('VERIFY_API', '0123cbbcb7da6b4d5eb066e3f5545ef53ecee5bd'))
+VERIFY_URL = environ.get('VERIFY_URL', 'softurl.in')
+VERIFY_API = (environ.get('VERIFY_API', '54528f37e15baa266842ef63286e58ca152896cb'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "21600"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'shortxlinks.com')
-VERIFY_API2 = (environ.get('VERIFY_API2', '0123cbbcb7da6b4d5eb066e3f5545ef53ecee5bd'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'softurl.in')
+VERIFY_API2 = (environ.get('VERIFY_API2', '54528f37e15baa266842ef63286e58ca152896cb'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "21600"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'shortxlinks.com')
-VERIFY_API3 = (environ.get('VERIFY_API3', '0123cbbcb7da6b4d5eb066e3f5545ef53ecee5bd'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'softurl.in')
+VERIFY_API3 = (environ.get('VERIFY_API3', '54528f37e15baa266842ef63286e58ca152896cb'))
  
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Bombardiro_Crocodiloa')
 TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/Bombardiro_Crocodiloa')
